@@ -1,0 +1,14 @@
+
+Q2_Impact
+
+Authentication:
+
+• For authentication purpose, we will use 2 columns as mentioned below:
+1) _ID: This is an important column as it serves as a unique identification to each business listing on the dashboard.
+2) Phone number: This column provides a authentication while providing job listings by providing a OTP for verification.
+
+Data Quality Issues:
+
+1) The column ‘Phone Number’ is having missing values in 11 rows out of 1760 rows. As we have no proper approach in dealing with it, we will keep it as such and use it for showing in the dashboard.
+2) The column ‘Business Phone Number (If applicable)’ is also having 1119 missing values out of 1760 rows.
+3) The columns ‘Current//Please specify’ and ‘Future//Please specify’ have only few rows which contain values as it does not belong to he predefined categories of the columns present in the dataframe.
